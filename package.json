@@ -1,6 +1,6 @@
 {
   "name": "mapkit-react",
-  "version": "1.15.2",
+  "version": "1.16.1",
   "description": "A React wrapper for MapKit JS",
   "author": "Nicolas Ettlin",
   "license": "MIT",
@@ -8,7 +8,7 @@
   "homepage": "https://nicolapps.github.io/mapkit-react/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Nicolapps/mapkit-react"
+    "url": "git+https://github.com/Nicolapps/mapkit-react.git"
   },
   "bugs": {
     "url": "https://github.com/Nicolapps/mapkit-react/issues"
@@ -34,28 +34,31 @@
     "dist"
   ],
   "dependencies": {
-    "@types/react-dom": "^18.0.10",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "usehooks-ts": "^2.9.1"
+    "usehooks-ts": "^3.1.1"
+  },
+  "peerDependencies": {
+    "react": "^18 || ^19",
+    "react-dom": "^18 || ^19",
+    "@types/react": "^18 || ^19",
+    "@types/react-dom": "^18 || ^19"
   },
   "devDependencies": {
     "@babel/core": "^7.20.5",
-    "@storybook/addon-actions": "^8.4.2",
-    "@storybook/addon-essentials": "^8.4.2",
-    "@storybook/addon-interactions": "^8.4.2",
-    "@storybook/addon-links": "^8.4.2",
-    "@storybook/addon-storysource": "^8.4.2",
-    "@storybook/react": "^8.4.2",
-    "@storybook/react-vite": "^8.4.2",
-    "@storybook/test": "^8.4.2",
+    "@storybook/addon-actions": "^8.6.3",
+    "@storybook/addon-essentials": "^8.6.3",
+    "@storybook/addon-interactions": "^8.6.3",
+    "@storybook/addon-links": "^8.6.3",
+    "@storybook/addon-storysource": "^8.6.3",
+    "@storybook/react": "^8.6.3",
+    "@storybook/react-vite": "^8.6.3",
+    "@storybook/test": "^8.6.3",
     "@types/apple-mapkit-js-browser": "^5.65.3",
     "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.10",
     "@typescript-eslint/eslint-plugin": "^5.44.0",
     "@typescript-eslint/parser": "^5.44.0",
-    "@vitejs/plugin-react": "^3.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
     "babel-loader": "^8.3.0",
-    "editorconfig-checker": "^5.1.1",
     "eslint": "^8.28.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^17.0.0",
@@ -63,11 +66,13 @@
     "eslint-plugin-jsx-a11y": "^6.6.1",
     "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-storybook": "^0.11.0",
-    "storybook": "^8.4.2",
+    "eslint-plugin-storybook": "^0.11.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^8.6.3",
     "tslib": "^2.4.1",
     "typescript": "^4.9.3",
-    "vite": "^4.0.3",
+    "vite": "^6.2.0",
     "vite-plugin-dts": "^1.7.1"
   }
 }
